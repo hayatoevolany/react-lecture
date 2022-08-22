@@ -1,5 +1,13 @@
 import React, { useState } from 'react';
 
+/*
+This page illustrates the differences between React and React Native.
+Main diffs: 
+- onPress / onClick
+- Different names for elements
+- Style is css, not inline
+- onChange / onChangeText
+*/
 const Page6 = () => {
 	const [value, setValue] = useState('World');
 
