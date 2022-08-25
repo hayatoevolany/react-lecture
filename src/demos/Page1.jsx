@@ -1,10 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-// Props
-const Page1Demo = (props) => {
-	return <div className="full-page">
-        {props.text || '--- No text prop provided ---'}
-    </div>;
-};
+const Page1Demo = () => {
+  return (
+    <div>Page1Demo</div>
+  )
+}
 
-export default Page1Demo;
+export default Page1Demo
