@@ -21,7 +21,7 @@ useEffect covers all three.
 
 */
 
-const Page3 = () => {
+const Page3Demo = () => {
 	const [counter, setCounter] = useState(0);
 
 	const increment = () => setCounter(counter + 1);
@@ -46,4 +46,4 @@ const Page3 = () => {
 	);
 };
 
-export default Page3;
+export default Page3Demo;
